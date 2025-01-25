@@ -1,5 +1,5 @@
 lightRadius: 250
-speed: 1.2
+speed: 4
 accel: 0.04
 drag: 0.05
 drawCell: true
@@ -17,7 +17,7 @@ hitSize: 160
 armor: 90
 engineOffset: 82
 engineSize: 16.8
-engineColor: F3E979FF
+#engineColor: F3E979FF
 lowAltitude: true
 groundLayer: 99
 targetAir: true
@@ -137,14 +137,14 @@ radius: 11
 #WEAPONS==============================
 weapons: [
 {
-x: 11.5
-y: -5
+x: 0
+y: -30
 shootCone: 300
-mirror: true
+mirror: false
 rotate: false
 alternate: false
 shoot: {
-shots: 8
+shots: 12
 }
 velocityRnd: 0.6
 reload: 75
@@ -152,7 +152,7 @@ ignoreRotation: true
 shootSound: plamsadrop
 inaccuracy: 29
 bullet: {
-damage: 10
+damage: 100
 speed: -1.5
 drag: 0.04
 type: basicBulletType
@@ -168,9 +168,9 @@ trailWidth: 2
 despawnShake: 3
 hitSound: plasmaboom
 sprite: exogenesis-energy-partical
-splashDamage: 50
-splashDamageRadius: 35
-spin: 3
+splashDamage: 250
+splashDamageRadius: 68
+spin: 20
 keepVelocity: false
 shootEffect: none
 hitEffect: {
@@ -182,7 +182,7 @@ line: true
 particles: 7
 lifetime: 20
 offset: 50
-length: 65
+length: 130
 cone: -360
 lenFrom: 6
 lenTo: 0
