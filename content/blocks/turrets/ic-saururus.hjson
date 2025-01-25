@@ -77,7 +77,7 @@ drawer: {
         tri: true
         layer: 110
         color: 66B1FFff
-        haloRotateSpeed: -0.9
+        haloRotateSpeed: 0.9
         haloRadius: 15
         haloRadiusTo: 15
         stroke: 0
