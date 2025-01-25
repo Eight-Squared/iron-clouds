@@ -2,7 +2,7 @@ lightRadius: 250
 speed: 1.2
 accel: 0.04
 drag: 0.05
-drawCell: false
+drawCell: true
 rotateSpeed: 0.7
 range: 420
 aimDst: 420
@@ -15,7 +15,7 @@ flying: true
 health: 5000000
 hitSize: 160
 armor: 90
-engineOffset: 112
+engineOffset: 82
 engineSize: 16.8
 engineColor: F3E979FF
 lowAltitude: true
@@ -136,86 +136,95 @@ radius: 11
 ]
 #WEAPONS==============================
 weapons: [
-{
-name: aaaaaaa
-mirror: false
-top: false
-x: 0
-y: 0
-shootY: 28
-shake: 10
-reload: 6
-#shootSound: apoth-gauss
-rotate: false
-bullet: {
-type: railBulletType
-damage: 17150
-length: 600
-pierceArmor: true
-lightningColor: F3E979FF
-pointEffectspace: 50
-lightning: 8
-lightningLength: 15
-lightningDamage: 45
-pierceDamageFactor: 0.6
-pierce: true
-recoil: 1
-buildingDamageMultiplier: 0.8
-spawnBullets: [
-{
-fragBullets: 5
-fragRandomSpread: 0
-fragSpread: 30
-fragBullet: {
-damage: 200
-width: 22.5
-type: ShrapnelBulletType
-lifetime: 60
-length: 50
-serrations: 4
-fromColor: F3E979FFF
-toColor: D99F6BFF
-hitEffect: {
-type: ParticleEffect
-line: true
-particles: 6
-offset: 20
-lifetime: 30
-length: 65
-baseLength: -15
-cone: -360
-lenFrom: 5
-lenTo: 0
-colorFrom: F3E979FFF
-colorTo: D99F6BFF
-}
-statusDuration: 90
-status: freezing
-}
-type: BulletType
-lifetime: 0
-}
-{
-fragBullets: 1
-fragRandomSpread: 0
-fragSpread: 35
-fragBullet: {
-damage: 200
-width: 52.5
-type: ShrapnelBulletType
-lifetime: 70
-length: 100
-serrations: 4
-fromColor: F3E979FFF
-toColor: D99F6BFF
-statusDuration: 90
-status: freezing
-}
-type: BulletType
-lifetime: 0
-}
-]
-hitEffect: none
-}
-}
+weapons: [
+    {
+      x: 11.5
+      y: -5
+      shootCone: 300
+      mirror: true
+      rotate: false
+      alternate: false
+      shoot: {
+        shots: 8
+      }
+      velocityRnd: 0.6
+      reload: 75
+      ignoreRotation: true
+      shootSound: plamsadrop
+      inaccuracy: 29
+      bullet: {
+        damage: 10
+        speed: -1.5
+        drag: 0.04
+        type: basicBulletType
+        collidesAir: false
+        collides: false
+        status: freezing
+        statusDuration: 100
+        shrinkY: 0.7
+        shrinkX: 0.7
+        trailColor: 66B1FFFF
+        trailLength: 10
+        trailWidth: 2
+        despawnShake: 3
+        hitSound: plasmaboom
+        sprite: exogenesis-energy-partical
+        splashDamage: 50
+        splashDamageRadius: 35
+        spin: 3
+        keepVelocity: false
+        shootEffect: none
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              line: true
+              particles: 7
+              lifetime: 20
+              offset: 50
+              length: 65
+              cone: -360
+              lenFrom: 6
+              lenTo: 0
+              colorFrom: A9D8FFFF
+              colorTo: 66B1FFFF
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              sizeFrom: 25
+              sizeTo: 0
+              length: 0
+              lightColor: 73FFAEFF
+              lifetime: 30
+              layer: 109
+              region: iron-clouds-brackets
+              colorFrom: A9D8FFFF
+              colorTo: 66B1FFFF
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              sizeFrom: 10
+              sizeTo: 0
+              length: 0
+              lightColor: 73FFAEFF
+              lifetime: 30
+              layer: 109
+              region: iron-clouds-brackets
+              colorFrom: FFFFFFF
+              colorTo: FFFFFFF
+            }
+          ]
+        }
+        width: 37
+        height: 37
+        lifetime: 30
+        frontColor: FFFFFFF
+        mixColorTo: A9D8FFFF
+        backColor: 66B1FFFF
+      }
+    }
+  ]
 ]
