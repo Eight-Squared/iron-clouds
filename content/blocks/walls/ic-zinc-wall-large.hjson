@@ -7,7 +7,7 @@ requirements: [
   ic-zinc/24
 ] 
 category: defense
-research: zinc-wall
+research: ic-zinc-wall
 researchCost: [
-  ic-zinc/150
+  ic-zinc/700
 ]
