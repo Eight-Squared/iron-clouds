@@ -88,8 +88,8 @@ drawer: {
     }
 {
 type: HaloPart
-y: 0
-haloRotateSpeed: 0.5
+y: -19
+haloRotateSpeed: 0.9
 radius: 7
 tri: true
 layer: 110
@@ -102,7 +102,7 @@ stroke: 0
 strokeTo: 4.7
 shapes: 4
 triLengthTo: 6
-triLength: 6
+triLength: 0
 }
     {
         type: HaloPart
