@@ -208,20 +208,6 @@ length: 100
 serrations: 4
 fromColor: F3E979FFF
 toColor: D99F6BFF
-hitEffect: {
-type: ParticleEffect
-line: true
-particles: 6
-offset: 20
-lifetime: 30
-length: 65
-baseLength: -15
-cone: -360
-lenFrom: 5
-lenTo: 0
-colorFrom: F3E979FFF
-colorTo: D99F6BFF
-}
 statusDuration: 90
 status: freezing
 }
@@ -229,92 +215,6 @@ type: BulletType
 lifetime: 0
 }
 ]
-pierceEffect: {
-type: multiEffect
-effects: [
-{
-type: ParticleEffect
-particles: 20
-length: -130
-lifetime: 26
-cone: 40
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-lenFrom: 20
-lenTo: 0
-sizeFrom: 11
-sizeTo: 0
-}
-{
-type: ParticleEffect
-particles: 1
-length: 0
-lifetime: 35
-sizeFrom: 60
-#region: exogenesis-blue-pierce
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-}
-{
-type: ParticleEffect
-particles: 1
-length: 0
-lifetime: 35
-sizeFrom: 80
-#region: exogenesis-rail-pierce2
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-}
-{
-type: ParticleEffect
-particles: 20
-length: -10
-lifetime: 32
-cone: 40
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-lenFrom: 20
-lenTo: 0
-sizeFrom: 11
-sizeTo: 0
-}
-]
-}
-pointEffect: {
-type: multiEffect
-effects: [
-{
-type: ParticleEffect
-particles: 1
-length: 0
-lifetime: 30
-sizeFrom: 45
-#region: exogenesis-wide
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-}
-{
-type: ParticleEffect
-particles: 1
-length: 0
-lifetime: 22
-sizeFrom: 75
-#region: exogenesis-tall-thin
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-}
-]
-}
-lineEffect: {
-type: ParticleEffect
-particles: 1
-length: 0
-lifetime: 25
-sizeFrom: 20
-#region: exogenesis-wide
-colorFrom: F3E979FF
-colorTo: D99F6BFF
-}
 hitEffect: none
 }
 }
