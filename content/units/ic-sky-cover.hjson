@@ -37,20 +37,6 @@ layer: 89
 rotation: 45
 radius: 9
 }
-{
-x: -60
-y: -2
-layer: 89
-rotation: 45
-radius: 9
-}
-{
-x: 60
-y: -2
-layer: 89
-rotation: 45
-radius: 9
-}
 ]
 #HALOS=================================
 parts: [
