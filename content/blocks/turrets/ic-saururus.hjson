@@ -90,7 +90,7 @@ drawer: {
 type: HaloPart
 y: -19
 haloRotateSpeed: 0.9
-radius: 7
+radius: 3
 tri: true
 layer: 110
 color: F3E979FF
@@ -100,7 +100,7 @@ haloRotation: 90
 shapeRotation: 180
 stroke: 0
 strokeTo: 4.7
-shapes: 4
+shapes: 6
 triLengthTo: 6
 triLength: 0
 }
