@@ -42,7 +42,7 @@ radius: 9
 parts: [
 {
 type: HaloPart
-y: -40
+y: 0
 haloRotateSpeed: 0.5
 radius: 7
 tri: true
@@ -60,7 +60,7 @@ triLength: 6
 }
 {
 type: HaloPart
-y: -40
+y: 100
 haloRotateSpeed: 0.5
 radius: 7
 tri: true
@@ -77,7 +77,7 @@ triLength: 33
 }
 {
 type: HaloPart
-y: -40
+y: -100
 haloRotateSpeed: 0.5
 radius: 6
 tri: true
@@ -95,7 +95,8 @@ triLength: 6
 }
 {
 type: HaloPart
-y: -40
+y: 0
+x: 100
 haloRotateSpeed: 0.5
 radius: 6
 tri: true
