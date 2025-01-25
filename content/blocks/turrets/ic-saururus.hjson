@@ -88,8 +88,8 @@ drawer: {
     }
     {
         type: HaloPart
-        y: -17
-        radius: 2
+        y: -19
+        radius: -1
         tri: true
         layer: 109
         color: 77C2FFff
