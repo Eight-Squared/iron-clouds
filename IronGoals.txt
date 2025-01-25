@@ -10,6 +10,7 @@ make turrets
  least important
  lore things
  map ideas
+crafter that makes walls to deconstruct
 
 
 
