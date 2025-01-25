@@ -1,0 +1,21 @@
+make palette
+fix campaign maps
+fix research
+environment sprites
+environment ideas
+content blocks
+content units
+fix units
+make turrets
+ least important
+ lore things
+ map ideas
+
+
+
+
+
+
+
+
+multiple cores map
