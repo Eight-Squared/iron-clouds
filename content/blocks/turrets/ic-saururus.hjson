@@ -86,6 +86,24 @@ drawer: {
         triLengthTo: 19
         triLength: 0
     }
+{
+type: HaloPart
+y: 0
+haloRotateSpeed: 0.5
+radius: 7
+tri: true
+layer: 110
+color: F3E979FF
+haloRadius: 22
+haloRadiusTo: 22
+haloRotation: 90
+shapeRotation: 180
+stroke: 0
+strokeTo: 4.7
+shapes: 4
+triLengthTo: 6
+triLength: 6
+}
     {
         type: HaloPart
         y: -19
