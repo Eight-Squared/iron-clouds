@@ -1,53 +1,20 @@
-  type: GenericCrafter
-  name: Rutile crystallizer
-  size: 3
-  itemCapacity: 10
-  drawer: {
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawDefault
-      }
-    ]
-  }
-  craftEffect: {
-        type: ParticleEffect
-        line: false
-        particles: 5
-        lifetime: 120
-        offset: 60
-        length: 24
-        cone: -360
-        strokeTo: 0
-        lightColor: 00000000
-        strokeFrom: 2.5
-        sizeFrom: 6
-        sizeTo: 3
-        colorFrom: b0c9e8
-        colorTo: 1b1f24
-      }
-  craftTime: 100
-  updateEffect: none
-  consumes: {
-    power: 1
-    items: {
-      items: [
-      ic-cobalt/2
-      ic-silver/1
-      ]
-    }
-  }
-  requirements: [
-    ic-zinc/80
-    ic-silver/60
-    ic-sulfide/20
-    ic-chloride/40
-  ]
-  category: crafting
-  outputItem: ic-rutile/1
-  squareSprite: false
-  research: silver-reassembler
-  researchCost: [
-  ic-zinc/800
-  ic-silver/600
-  ]
+type: Constructor
+name: rutile crystalyzer
+description: 
+size: 3
+category: production
+requirements: [
+  ic-zinc/120
+] 
+hasPower: true
+consumes: {
+  power: 0.75
+}
+buildSpeed: 1
+filter: [
+  ic-zinc-wall
+]
+research: core-newcome
+squareSprite: false
+conductivePower: true
+maxBlockSize: 2
