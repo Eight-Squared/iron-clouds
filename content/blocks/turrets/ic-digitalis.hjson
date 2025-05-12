@@ -6,7 +6,44 @@ range: 200
 shootY: 6
 drawer: {
 type: drawTurret
-basePrefix: quantra-
+basePrefix: ironcl-
+parts: 
+#PARTS---------------------------
+[
+{
+type: RegionPart
+suffix: -barrel
+mirror: false
+moveY: 20
+under: true
+progress: warmup
+}
+{
+type: RegionPart
+suffix: -backblade
+mirror: true
+moveY: -20
+under: true
+progress: warmup
+}
+{
+type: RegionPart
+suffix: -holder
+mirror: true
+moveY: 20
+under: true
+progress: warmup
+}
+{
+type: RegionPart
+suffix: -side
+mirror: true
+moveY: -10
+moveX: 10
+under: true
+progress: warmup
+}
+]
 }
 shootEffect: {
 type: ParticleEffect
@@ -80,10 +117,6 @@ requirements: [
 {
 item: thorium
 amount: 700
-}
-{
-item: gamma-green
-amount: 350
 }
 {
 item: plastanium
