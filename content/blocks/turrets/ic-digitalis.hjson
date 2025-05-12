@@ -71,8 +71,8 @@ power: 60
 hasPower: true
 shootType: {
 type: BasicBulletType
-sprite: exogenesis-slice
-status: exogenesis-irradiated
+sprite: bullet
+#status: 
 damage: 80
 height: 13
 spin: 7
