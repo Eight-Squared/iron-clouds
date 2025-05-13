@@ -37,8 +37,8 @@ drawer: {
       mirror: true
       under: true
       progress: warmup
-      moveY: -5
-      moveX: 5
+      moveY: -2.5
+      moveX: 2.5
     }
     {
       type: RegionPart
