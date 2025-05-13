@@ -16,9 +16,8 @@ smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 2a2b3b
 researchCost: [
-  ic-zinc/1000
-  ic-silver/2000
-  ic-sulfide/300
+  ic-zinc/100
+  ic-silver/200
 ]
 research: {
    parent: core-newcome
@@ -26,7 +25,6 @@ research: {
 requirements: [
   ic-zinc/60
   ic-silver/90
-  ic-sulfide/30
 ]
 drawer: {
   type: DrawTurret
@@ -40,15 +38,15 @@ drawer: {
       under: true
       progress: warmup
       moveY: -5
-      moveX: -5
+      moveX: 5
     }
     {
       type: RegionPart
       suffix: -slide
       mirror: true
-      under: false
+      under: true
       progress: warmup
-      moveY: -5
+      moveY: -1.5
     }
 #HALOS=====================================
     {
