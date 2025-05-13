@@ -1,0 +1,104 @@
+type: PowerTurret
+name: Iberis
+description: Brings destruction with its blossom.
+size: 2
+squareSprite: false
+consumes: {
+  power: 3
+}
+shootWarmupSpeed: 0.05
+minWarmup: 0.9
+reload: 50
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: sparkShoot
+smokeEffect: shootSmokeTitan
+category: turret
+outlineColor: 2a2b3b
+researchCost: [
+  ic-zinc/1000
+  ic-silver/2000
+  ic-sulfide/300
+]
+research: {
+   parent: core-newcome
+}
+requirements: [
+  ic-zinc/60
+  ic-silver/90
+  ic-sulfide/30
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: ironcl-
+  parts: [
+#TURRETPARTS=========================================
+    {
+      type: RegionPart
+      suffix: -block
+      mirror: true
+      under: true
+      progress: warmup
+      moveY: -5
+      moveX: -5
+    }
+    {
+      type: RegionPart
+      suffix: -slide
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -5
+    }
+#HALOS=====================================
+    {
+        type: HaloPart
+        y: -19
+        radius: 3
+        tri: true
+        layer: 110
+        color: 66B1FFff
+        haloRotateSpeed: 0.9
+        haloRadius: 15
+        haloRadiusTo: 15
+        stroke: 0
+        strokeTo: 2
+        shapes: 6
+        triLengthTo: 19
+        triLength: 0
+    }
+  ]
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+shootY: -22
+shootType: {
+  type: BasicBulletType
+    speed: 15
+    lifetime: 32
+    homingPower:0.3
+    homingDelay: 5
+    homingRange: 45
+    width: 10
+    height: 18
+    frontColor: 82d4ed
+    backColor: 3ec4ed
+    hitEffect: [hitBulletColor, railHit]
+    despawnEffect: titanExplosion
+    pierce: true
+    damage: 375
+    splashDamage: 125
+    splashDamageRadius: 64
+    despawnSound: shoot-mortar
+    trailColor: 32c1ed
+    trailChance: -1
+    trailEffect: colorSpark
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+  }
