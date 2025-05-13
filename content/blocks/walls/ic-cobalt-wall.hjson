@@ -1,0 +1,13 @@
+type: Wall
+size: 1
+name: Cobalt wall
+description: A small wall.
+health: 640
+requirements: [
+  ic-cobalt/6
+] 
+category: defense
+research: ic-zinc-wall
+researchCost: [
+  ic-cobalt/200
+]
