@@ -52,15 +52,15 @@ ic-silver/1500
           {
             type: ParticleEffect
             line: true
-            particles: 10
+            particles: 3
             lifetime: 45
             interp: circleOut
             length: 75
             cone: -40
             strokeTo: 0
             lightColor: A9D8FFFF
-            lenFrom: 8
-            lenTo: 0
+            lenFrom: 15
+            lenTo: 3
             strokeFrom: 2
             colorFrom: A9D8FFFF
             colorTo: 66B1FFFF
