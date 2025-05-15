@@ -1,0 +1,42 @@
+  type: ItemTurret
+  squareSprite: false
+  outlineColor: 36363CFF
+  size: 3
+  health: 1600
+  reload: 70
+  range: 105
+  velocityRnd: 0.25
+research: ic-pike
+researchCost: [
+ic-zinc/1000
+ic-silver/1500
+]
+  drawer: {
+    type: drawTurret
+    basePrefix: ironcl-
+  }
+  shootCone: 2
+  recoil: 2
+  rotateSpeed: 2
+  shootSound: shotgun
+  ammoTypes: {
+        ic-silver: {
+      buildingDamageMultiplier: 0.7
+      type: shrapnelBulletType
+      damage: 220
+      toColor: F9A3C7FF
+      length: 200
+      width: 24
+      hitEffect: thoriumShoot
+      shootEffect: thoriumShoot
+      pierce: true
+      smokeEffect: hitBulletBig
+    }
+}
+  requirements: [
+    ic-zinc/125
+    ic-silver/200
+  ]
+  envRequired: 0
+  enDisabled: 4
+  category: turret
