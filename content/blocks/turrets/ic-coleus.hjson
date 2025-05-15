@@ -5,7 +5,7 @@
   health: 1600
   reload: 70
   range: 105
-  velocityRnd: 0.25
+  shootY: 4
 research: ic-pike
 researchCost: [
 ic-zinc/1000
@@ -24,9 +24,9 @@ ic-silver/1500
       buildingDamageMultiplier: 0.7
       type: shrapnelBulletType
       damage: 220
-      toColor: F9A3C7FF
-      length: 200
-      width: 24
+      toColor: 1f2126
+      length: 300
+      width: 30
       hitEffect: thoriumShoot
       shootEffect: thoriumShoot
       pierce: true
