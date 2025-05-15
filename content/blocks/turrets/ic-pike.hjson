@@ -9,7 +9,7 @@
   shoot: {
     type: shootSpread
     shots: 18
-    spread: 7
+    spread: 0
   }
   drawer: {
     type: drawTurret
