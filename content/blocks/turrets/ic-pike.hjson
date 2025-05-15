@@ -16,6 +16,7 @@ research: core-newcome
 researchCost: [
 ic-zinc/1000
 ic-silver/1500
+]
   drawer: {
     type: drawTurret
     basePrefix: ironcl-
