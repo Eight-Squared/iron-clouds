@@ -60,7 +60,7 @@ sizeTo: 0
 shoot: {
 type: ShootPattern
 shots: 10
-shotDelay: 10
+shotDelay: 2
 }
 recoil: 1.5
 rotateSpeed: 5
