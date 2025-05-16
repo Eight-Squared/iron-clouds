@@ -1,4 +1,5 @@
   type: ItemTurret
+  name: Pike
   squareSprite: false
   outlineColor: 36363CFF
   size: 2
