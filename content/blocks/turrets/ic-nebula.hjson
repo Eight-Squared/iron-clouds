@@ -28,7 +28,7 @@ shoot: {
       velocityRnd: 0.25
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
-      speed: 45
+      speed: 29
       lifetime: 8
       damage: 39
       height: 16
