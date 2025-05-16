@@ -1,0 +1,6 @@
+type: OreBlock
+name: Cobalt ore
+itemDrop: ic-cobalt
+variants: 4
+canShadow: false
+oreDefault: true
