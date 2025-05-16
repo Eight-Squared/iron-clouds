@@ -16,7 +16,7 @@ shoot: {
   shotDelay: 4
   barrelOffset: 1
   barrels: [
-    0, 0.5, 0
+    0, -0.5, 0
     -6, 0, 0,
     6, 0, 0
   ]
@@ -34,6 +34,7 @@ shoot: {
       
       randomAngleOffset: 1.2
       velocityRnd: 0.25
+      
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
       speed: 29
@@ -45,8 +46,8 @@ shoot: {
       trailLength: 1
       trailWidth: 3
       knockback: 0.5
-      backColor: b1dd7e
-      trailColor: b1dd7e
+      backColor: ddb17e
+      trailColor: ddb17e
       hitEffect: colorSpark
       despawnEffect: colorSpark
       smokeEffect: none
