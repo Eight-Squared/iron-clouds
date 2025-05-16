@@ -30,19 +30,19 @@ shoot: {
       lifeScaleRandMax: 1.1
       velocityScaleRandMin: 0.9
       velocityScaleRandMax: 1.1
-      inaccuracy: 6
+      inaccuracy: 3
       
       randomAngleOffset: 1.2
       velocityRnd: 0.25
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
       speed: 29
-      lifetime: 8
+      lifetime: 12
       damage: 39
       height: 16
       width: 12
       trailParam: 5
-      trailLength: 2
+      trailLength: 0.9
       trailWidth: 3
       knockback: 0.5
       backColor: b1dd7e
