@@ -3,7 +3,7 @@
   size: 4
   health: 2000
   armor: 15
-  reload: 30
+  reload: 6
   range: 140
   maxAmmo: 20
   outlineColor: 252525
@@ -17,14 +17,31 @@
   drawer: {
     type: drawTurret
     basePrefix: ironcl-
+    parts: [
+#PARTS=============================
+      {
+        type: RegionPart
+        suffix: -mid
+        moveY: -1.7
+        mirror: false
+        progress: recoil
+      }
+      {
+        type: RegionPart
+        suffix: -side
+        moveY: -1.7
+        mirror: true
+        progress: recoil
+      }
+    ]
   }
   shootSound: shoot
   ammoTypes: {
-    beryllium: {
+    ic-zinc: {
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
-      speed: 4
-      lifetime: 57
+      speed: 45
+      lifetime: 10
       damage: 39
       height: 16
       width: 12
