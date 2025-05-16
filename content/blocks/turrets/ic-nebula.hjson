@@ -25,6 +25,7 @@ shoot: {
   shootSound: shoot
   ammoTypes: {
     ic-zinc: {
+      velocityRnd: 0.25
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
       speed: 45
@@ -33,7 +34,7 @@ shoot: {
       height: 16
       width: 12
       trailParam: 5
-      trailLength: 8
+      trailLength: 2
       trailWidth: 3
       knockback: 0.5
       backColor: b1dd7e
