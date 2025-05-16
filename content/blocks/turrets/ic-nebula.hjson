@@ -40,8 +40,8 @@
     ic-zinc: {
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
-      speed: 45
-      lifetime: 10
+      speed: 90
+      lifetime: 6
       damage: 39
       height: 16
       width: 12
