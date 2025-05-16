@@ -1,0 +1,71 @@
+  type: ItemTurret
+  researchCostMultiplier: 0.2
+  size: 4
+  health: 2000
+  armor: 15
+  reload: 30
+  range: 140
+  maxAmmo: 20
+  outlineColor: 252525
+  recoil: 0.7
+  rotateSpeed: 3
+  shoot: {
+    type: ShootAlternate
+    shots: 1
+    spread: 7
+  }
+  drawer: {
+    type: drawTurret
+    basePrefix: ironcl-
+  }
+  shootSound: shoot
+  ammoTypes: {
+    beryllium: {
+      buildingDamageMultiplier: 0.3
+      type: BasicBulletType
+      speed: 4
+      lifetime: 57
+      damage: 39
+      height: 16
+      width: 12
+      trailParam: 5
+      trailLength: 8
+      trailWidth: 3
+      knockback: 0.5
+      backColor: b1dd7e
+      trailColor: b1dd7e
+      hitEffect: hitBulletSmall
+      despawnEffect: hitBulletSmall
+      smokeEffect: none
+    }
+    graphite: {
+      buildingDamageMultiplier: 0.7
+      type: BasicBulletType
+      speed: 4
+      damage: 29
+      lifetime: 57
+      height: 16
+      width: 12
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      pierce: true
+      knockback: 0.7
+      trailColor: 6B77A1FF
+      trailParam: 5
+      trailLength: 8
+      trailWidth: 3
+      smokeEffect: none
+      frontColor: 95ABD9FF
+      backColor: 6B77A1FF
+    }
+  }
+  coolant: {
+    type: ConsumeLiquid
+    liquid: slag
+    amount: 0.4
+  }
+  coolantMultiplier: 2
+  requirements: [
+    graphite/80
+  ]
+  category: turret
