@@ -26,12 +26,13 @@ shoot: {
   ammoTypes: {
     ic-zinc: {
 
-lifeScaleRandMin: 0.9
-lifeScaleRandMax: 0.9
-velocityScaleRandMin: 0.9
-velocityScaleRandMax: 0.9
-
-randomAngleOffset: 1.2
+      lifeScaleRandMin: 0.9
+      lifeScaleRandMax: 1.1
+      velocityScaleRandMin: 0.9
+      velocityScaleRandMax: 1.1
+      inaccuracy: 6
+      
+      randomAngleOffset: 1.2
       velocityRnd: 0.25
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
