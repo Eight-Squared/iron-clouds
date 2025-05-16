@@ -27,8 +27,8 @@ shoot: {
     ic-zinc: {
       buildingDamageMultiplier: 0.3
       type: BasicBulletType
-      speed: 90
-      lifetime: 6
+      speed: 45
+      lifetime: 8
       damage: 39
       height: 16
       width: 12
@@ -38,8 +38,8 @@ shoot: {
       knockback: 0.5
       backColor: b1dd7e
       trailColor: b1dd7e
-      hitEffect: hitBulletSmall
-      despawnEffect: hitBulletSmall
+      hitEffect: colorSpark
+      despawnEffect: colorSpark
       smokeEffect: none
     }
     graphite: {
