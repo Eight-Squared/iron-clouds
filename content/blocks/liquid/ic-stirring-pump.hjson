@@ -1,0 +1,16 @@
+type: Pump
+name: Stirring pump
+description: Pumps liquids from liquid tiles.
+size: 2
+category: liquid
+squareSprite: false
+hasShadow: true
+research: ic-light-drill
+researchCost: [
+  ic-zinc/20
+]
+requirements: [
+  ic-zinc/45
+]
+pumpAmount: 0.1
+placeableLiquid: true
