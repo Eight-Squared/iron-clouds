@@ -10,16 +10,6 @@ defaultController: minerAI
 mineItems: [
 ic-zinc
 ]
-parts: [
-{
-type: RegionPart
-suffix: -glow
-blending: additive
-color: ffffff88
-outline: false
-mirror: false
-}
-]
 playerControllable: true
 speed: 1.8
 mineSpeed: 7.5
