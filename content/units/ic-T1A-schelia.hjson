@@ -1,1 +1,38 @@
 name: Schelia
+type: flying
+description: Most basic drone. Can mine soft ores.
+lowAltitude: true
+research: core-newcome
+researchCost: [
+ic-zinc/1
+]
+defaultController: minerAI
+mineItems: [
+ic-zinc
+]
+parts: [
+{
+type: RegionPart
+suffix: -glow
+blending: additive
+color: ffffff88
+outline: false
+mirror: false
+}
+]
+playerControllable: true
+speed: 1.8
+mineSpeed: 7.5
+rotateSpeed: 6
+mineTier: 5
+accel: 0.5
+drag: 0.5
+mineHardnessScaling: false
+mineWalls: true
+outlineColor: 1f2126
+flying: true
+health: 100
+hitSize: 8
+armor: 1
+itemCapacity: 20
+engineOffset: 6
