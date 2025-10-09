@@ -11,9 +11,6 @@ consumes: {
 requirements: [
 ic-zinc/10
 ]
-upgrades: [
-ic-lumarae
-ic-kestorion
-]
+
 category: units
 research: ic-drone-assembler
