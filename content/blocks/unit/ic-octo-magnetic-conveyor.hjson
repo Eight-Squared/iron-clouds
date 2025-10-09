@@ -1,0 +1,18 @@
+type: PayloadConveyor
+name: octo magnetic conveyor
+description: transports large units and blocks from constructors.
+category: units
+research: ic-quadro-magnetic-conveyor
+researchCost: [
+  ic-zinc/180
+  ic-silver/180
+  ic-sulfide/20
+]
+requirements: [
+  ic-zinc/18
+  ic-silver/18
+  ic-sulfide/2
+]
+canOverdrive: false
+payloadLimit: 2
+size: 8
