@@ -12,7 +12,7 @@ requirements: [
 ic-zinc/10
 ]
 upgrades: [
-ic-lumaraae
+ic-lumarae
 ic-kestorion
 ]
 category: units
