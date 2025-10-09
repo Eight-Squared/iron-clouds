@@ -1,0 +1,18 @@
+type: PayloadConveyor
+name: quadro magnetic conveyor
+description: Transports larger units and blocks from constructors.
+category: units
+research: ic-magnetic-conveyor
+researchCost: [
+  ic-zinc/400
+  ic-silver/400
+  ic-sulfide/150
+]
+requirements: [
+  ic-zinc/40
+  ic-silver/40
+  ic-sulfide/8
+]
+canOverdrive: false
+payloadLimit: 2
+size: 4
