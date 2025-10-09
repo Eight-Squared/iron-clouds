@@ -1,0 +1,19 @@
+type: Reconstructor
+name: direct reconstructor
+size: 4
+constructTime: 1500
+consumes: {
+  power: 18
+  items: [
+  ic-silver/10
+  ]
+}
+requirements: [
+ic-zinc/10
+]
+upgrades: [
+ic-lumraae
+ic-kestorion
+]
+category: units
+research: ic-drone-assembler
