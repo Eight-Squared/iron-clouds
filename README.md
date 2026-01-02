@@ -1,4 +1,3 @@
 <div align = center>
-<br>
-### A campaign mod that adds a new planet.
+A campaign mod that adds a new planet.
 </div>
