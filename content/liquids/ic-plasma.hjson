@@ -1,0 +1,9 @@
+name: plasma
+description: a gaseous substance.
+gas: true
+temperature: 0.25
+heatCapacity: 0.9
+color: dbbe79
+research: {
+  parent: ic-silver
+}
