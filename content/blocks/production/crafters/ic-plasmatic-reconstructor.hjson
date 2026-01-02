@@ -7,7 +7,7 @@ ambientSoundVolume: 0.12
 description: creates plasma and heat for power production.
 size: 4
 
-squareSprite: false
+squareSprite: true
 craftTime: 180
 consumes: {
 power: 6
@@ -68,7 +68,7 @@ effect: surgeCruciSmoke
 
 #OUTPUT==============================================
 outputItem: ic-silver/1
-heatOutput: 2
+heatOutput: 20
 outputLiquid: ic-molten-silver/0.2
 #RESEARCH=============================================
 category: crafting
