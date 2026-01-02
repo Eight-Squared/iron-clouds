@@ -103,7 +103,7 @@ color: 5eb3ac
 type: DrawArcSmelt
 }
 {
-type: DrawTop
+type: DrawDefault
 }
 {
 type: DrawHeatOutput
