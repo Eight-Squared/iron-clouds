@@ -72,21 +72,7 @@ heatOutput: 2
 outputLiquid: ic-molten-silver/0.2
 #RESEARCH=============================================
 category: crafting
-research: 09i-09-barite-loom
-research: {
-parent: 09i-09-barite-loom  
-objectives: [  
-01a-13-item-barite-webbing,
-{
-type: SectorComplete
-preset: 19s-09-synthesis-facility
-}
-{
-type: OnSector
-preset: 19s-10-furnace-settlement
-}
-]
-}
+research: ic-pressure-chamber
 requirements: [ #COST===============================
 01a-06-item-lodestone/220
 01a-07-item-lithium/200
@@ -102,12 +88,6 @@ drawers: [
 {
 type: DrawRegion
 suffix: -bottom
-}
-{
-type: DrawLiquidTile
-drawLiquid: 02b-05-liquid-nontragen
-alpha: 0.9
-padding: 3
 }
 {
 type: DrawParticles
@@ -130,7 +110,7 @@ type: DrawArcSmelt
 type: DrawDefault
 }
 {
-type: DrawHeatInput
+type: DrawHeatOutput
 heatColor: 641616B3
 }
 {
