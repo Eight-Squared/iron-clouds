@@ -94,14 +94,8 @@ particles: 42
 particleRad: 18
 particleLife: 60
 }
-{
-type: DrawBubbles
-radius: 9
-color: 5eb3ac
-}
-{
-type: DrawArcSmelt
-}
+
+
 {
 type: DrawDefault
 }
