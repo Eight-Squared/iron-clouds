@@ -101,6 +101,7 @@ type: DrawDefault
 }
 {
 type: DrawHeatOutput
+suffix: -heat
 heatColor: 641616B3
 }
 {
