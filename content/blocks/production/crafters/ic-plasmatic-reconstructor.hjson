@@ -1,4 +1,4 @@
-type: HeaterGenerator
+type: HeatProducer
 name: plasmatic reconstructor
 
 ambientSound: smelter
