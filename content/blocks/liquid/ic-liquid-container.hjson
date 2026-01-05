@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: liquid container
+size: 2
+hasLiquids: true
+liquidCapacity: 220
+health: 450
+squareSprite: false
+
+description: Stores liquids and outputs them to all sides.
+category: liquid
+requirements: [
+ic-zinc/15
+ic-silver/40
+]
+research: ic-stirring-pump
+liquidPadding: 1.8
