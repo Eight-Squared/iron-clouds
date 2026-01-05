@@ -1,0 +1,32 @@
+type: HeatConductor
+name: Heat conductor
+description: Conducts heat to other heat conductors or heat consuming blocks. 
+size: 2
+category: distribution
+research: core-newcome
+liquidCapacity: 15
+liquid: ic-plasma
+requirements: [
+  ic-zinc/30
+  ic-sulfide/3
+]
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+    {
+      type: DrawLiquid
+      suffix: -liquid
+    }
+  ]
+}
