@@ -2,6 +2,7 @@ type: DirectionLiquidBridge
 name: Low pressure bridge
 description: Used for crossing multiple distribution lines or terrain to connect conduits.
 size: 1
+squareSprite: false
 health: 45
 fadeIn: false
 moveArrows: true
