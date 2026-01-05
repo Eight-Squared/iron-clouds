@@ -1,7 +1,8 @@
   type: ItemTurret
+name: coleus
   squareSprite: false
-  outlineColor: 36363CFF
-  size: 3
+  outlineColor: 2a2b3b
+  size: 4
   health: 1600
   reload: 70
   range: 105
@@ -11,10 +12,7 @@ researchCost: [
 ic-zinc/1000
 ic-silver/1500
 ]
-  drawer: {
-    type: drawTurret
-    basePrefix: ironcl-
-  }
+
   shootCone: 2
   recoil: 2
   rotateSpeed: 2
@@ -40,3 +38,61 @@ ic-silver/1500
   envRequired: 0
   enDisabled: 4
   category: turret
+
+drawer: {
+  type: DrawTurret
+  basePrefix: ironcl-
+  parts: [
+#TURRETPARTS=========================================
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      under: true
+      progress: warmup
+      moveY: -3
+      moveX: -3
+    }
+    {
+      type: RegionPart
+      suffix: -wing
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: -3
+      moveY: -3
+    }
+    {
+      type: RegionPart
+      suffix: -glow-top
+      mirror: false
+      under: false
+      progress: warmup
+      blending: additive
+      outline: false
+      color: 3db1ebbb
+      colorTo: 6dd0f7ee
+      }
+    {
+      type: RegionPart
+      suffix: -glow-bottom
+      mirror: false
+      under: false
+      progress: warmup
+      blending: additive
+      outline: false
+      color: 3db1ebbb
+      colorTo: 6dd0f7ee
+      }
+    {
+      type: RegionPart
+      suffix: -heat
+      mirror: false
+      under: false
+      progress: warmup
+      blending: additive
+      outline: false
+      color: 3db1ebbb
+      colorTo: 6dd0f7ee
+      }]
+    }
