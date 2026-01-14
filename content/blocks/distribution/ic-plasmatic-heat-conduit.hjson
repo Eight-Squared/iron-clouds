@@ -1,4 +1,5 @@
 type: HeatConductor
+type: LiquidRouter
 name: plasmatic heat conduit
 description: Conducts heat to other heat conductors or heat consuming blocks. 
 size: 2
